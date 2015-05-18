@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+
+
+#xIcon{
+	-fx-image: url('../imges/icons/x.png');
+}
+
+
+#a:HOVER{
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+
+#xIcon:hover{
+	-fx-image: url('../imges/icons/xHover.png');
+	
+}
+
+#xIcon:pressed {
+	-fx-image: url('../imges/icons/xSelected.png');
+	
+}
+
+#raceIcon:hover {
+	-fx-image: url('../imges/t.png');
+	
+}
+
+#bp{
+	
+	-fx-border-color: gray
+}

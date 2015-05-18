@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+#main{
+	
+}
+
+#xIcon{
+	-fx-image: url('../imges/icons/x.png');
+}
+
+
+#a:hover{
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#randButton {
+	/*-fx-background-image: url(../imges/icons/x.png);*/
+	
+}
+
+#xIcon:hover{
+	-fx-image: url('../imges/icons/xHover.png');
+	
+}
+
+#xIcon:pressed {
+	-fx-image: url('../imges/icons/xSelected.png');
+}
+
+#aboutLabel{
+	-fx-font-size: 16px;
+	-fx-text-alignment: CENTER;
+}
